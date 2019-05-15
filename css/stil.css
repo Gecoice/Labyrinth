@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+
+		background: url("../Slike/back.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+
+}
+#Glavni{
+	position:relative;
+	width:482px;
+	height:482px;
+	margin: auto;
+
+}
+#Slika{
+	position:absolute;
+}
+#canvasMaze{
+	position:absolute;
+	width:482px;
+	height:482px;
+
+}
+#naslov{
+	margin: auto;
+	width:450px;
+	height:358px;
+
+}
+#smreka{
+	margin: auto;
+	width:300px;
+	height:300px;
+}
+.bgm{
+	visibility:hidden;
+}
+#darilo1{
+	visibility: hidden;
+	top:1020px;
+	left:721px;
+}
+#darilo2{
+	visibility: hidden;
+	top:900px;
+	right:770px;
+}
+#darilo3{
+	visibility: hidden;
+	top:1020px;
+	right:721px;
+}
+.resizegod{
+	width: 100px;
+	height: 100px;
+	position:absolute;
+}
+#Mega{
+	width:100vw;
+	height:100vh;
+	display:none;
+	background:url("../slike/konc.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
+}
+#test{
+
+}
